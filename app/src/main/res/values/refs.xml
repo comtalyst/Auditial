@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="bg_head">#0047b3</drawable>
+    <drawable name="font_head">#FFFFFF</drawable>
+    <drawable name="bg_add">#009900</drawable>
+    <drawable name="bg_dec">#ff4f4f</drawable>
+</resources>

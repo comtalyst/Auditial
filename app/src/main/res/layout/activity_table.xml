@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_table"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.comtalyst.auditial.TableActivity">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scrollbars="none"
+        android:layout_weight="1">
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="0dp"
+        android:id="@+id/tablelayout">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/bg_head"
+            android:id="@+id/row_header"
+            android:weightSum="335">
+
+            <TextView
+                android:text="Date"
+                android:layout_width="105dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/head_date"
+                android:textSize="20dp"
+                android:textColor="@color/font_head"
+                android:textAlignment="center"
+                android:layout_margin="10dp"
+                android:layout_weight="110" />
+
+            <TextView
+                android:text="Type"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/head_type"
+                android:textSize="20dp"
+                android:textColor="@color/font_head"
+                android:textAlignment="center"
+                android:layout_margin="10dp"
+                android:layout_weight="45" />
+
+            <TextView
+                android:text="Amount"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/head_value"
+                android:textSize="20dp"
+                android:textColor="@color/font_head"
+                android:textAlignment="center"
+                android:layout_margin="10dp"
+                android:layout_weight="130" />
+
+            <TextView
+                android:text="Tag"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/head_tag"
+                android:textSize="20dp"
+                android:textColor="@color/font_head"
+                android:textAlignment="center"
+                android:layout_margin="10dp"
+                android:layout_weight="50" />
+
+        </TableRow>
+
+    </TableLayout>
+    </ScrollView>
+</LinearLayout>
